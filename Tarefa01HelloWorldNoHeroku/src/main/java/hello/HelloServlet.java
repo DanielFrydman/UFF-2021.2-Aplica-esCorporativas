@@ -32,7 +32,7 @@ public class HelloServlet extends HttpServlet {
         
         String tratamento = request.getParameter("tratamento");
         if(tratamento==null)
-            tratamento = "";
+            tratamento = "sr";
         
         String favcolor = "color:" + request.getParameter("favcolor") + ";";
         
